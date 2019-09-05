@@ -1,0 +1,71 @@
+{
+  "donorList": [
+    {
+      "donor_id": 0,
+      "donor_name": "",
+      "dob": "",
+      "blood_group": "",
+      "phone_number": 0,
+      "address": {
+        "city": "",
+        "state": "",
+        "country": "",
+        "pincode": 0,
+        "line": ""
+      },
+      "donor_availablity": true,
+      "email": "",
+      "effective_date": ""
+    },
+    {
+      "id": "108",
+      "donor_name": "Shubham",
+      "dob": "1997-02-10",
+      "phone_number": "4561234567",
+      "line": "465",
+      "": "Chandigarh",
+      "city": "Chandigarh",
+      "country": "India",
+      "pincode": "160019",
+      "email": "user2@gmail.com",
+      "effdate": "2019-04-09"
+    },
+    {
+      "donor_id": "123",
+      "donor_name": "User1",
+      "dob": "1997-04-10",
+      "phone_number": "1231231231",
+      "line": "123",
+      "state": "TN",
+      "city": "Chennai",
+      "country": "India",
+      "pincode": "600089",
+      "email": "user1@gmail.com",
+      "effdate": "2019-04-09",
+      "id": "B7QVaog"
+    },
+    {
+      "donor_id": "234",
+      "donor_name": "user2",
+      "dob": "1997-04-10",
+      "phone_number": "4564564564",
+      "line": "456",
+      "state": "TN",
+      "city": "VH",
+      "country": "IN",
+      "pincode": "60089",
+      "email": "user2@gmail.com",
+      "effdate": "1997-04-09",
+      "id": "3n1QRdI"
+    },
+    {
+      "donor_id": "867",
+      "donor_name": "user4",
+      "dob": "1997-05-10",
+      "phone_number": "7845784596",
+      "email": "user3@gmail.com",
+      "effdate": "1997-10-10",
+      "id": "Favtfwr"
+    }
+  ]
+}

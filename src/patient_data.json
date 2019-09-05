@@ -1,0 +1,43 @@
+{
+  "patientList": [
+    {
+      "id": 9126545,
+      "patient_name": "ramesh",
+      "dob": "1997-02-25T18:30:00.000+0000",
+      "blood_group": "A+",
+      "phone_number": "9395692959",
+      "email": "ramesh@gmail.com",
+      " effective_date": "",
+      "address": {
+        "line": "thiruvanmiyur",
+        "city": "chennai",
+        "state": "T.N.",
+        "country": "india",
+        "pincode": 523456
+      }
+    },
+    {
+      "patientId": "2134",
+      "patientName": "sdg",
+      "dob": "1997-04-10",
+      "bloodGroup": "",
+      "phoneNumber": "4",
+      "email": "dhkl@gmail.com",
+      " effectiveDate": "",
+      "address": {
+        "line": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "pincode": 0
+      },
+      "line": "4",
+      "state": "TN",
+      "city": "CH",
+      "country": "IN",
+      "pincode": "45",
+      "effectiveDate": "2019-04-09",
+      "id": 9126546
+    }
+  ]
+}
