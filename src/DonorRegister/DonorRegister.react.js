@@ -3,7 +3,7 @@ import axios  from 'axios';
 
 import './DonorRegister.css';
 const proxyurl = "https://cors-anywhere.herokuapp.com/"
-let url1="http://localhost:1011/addDonor";
+let url1="http://localhost:1011/addPatient";
 let url = proxyurl + url1;
 class DonorRegister extends React.Component {
     constructor(props) {
@@ -55,7 +55,23 @@ class DonorRegister extends React.Component {
         //   axios.post(url1,this.state.newdonorList,headers)
          fetch(url1,{
             "method":"POST",
-            "body":JSON.stringify(this.state.newDonor),
+            "body":JSON.stringify({
+                "patient_id": 4,
+                "patient_name": "shubham",
+                "dob": "2019-09-05",
+                "blood_group": "AB+",
+                "phone_number": "34534535345",
+                "email": "shubham@gmail.com",
+                "effective_date": "2018-09-03",
+                "address": {
+                  "user_id": 3,
+                  "line": "thoraipakkam",
+                  "city": "chennai",
+                  "state": "tamil nadu",
+                  "country": "india",
+                  "pincode": 600119
+                }
+              }),
             headers:{
                 "Content-Type":"application/json"
                 // "credentials":"include"
